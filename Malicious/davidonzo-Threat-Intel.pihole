@@ -1,0 +1,545 @@
+
+
+
+
+
+
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+
+
+
+
+
+  
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+  
+
+
+
+
+
+
+
+
+  partial-name="keyboard-shortcuts-dialog"
+  data-ssr="false"
+  
+
+
+
+      
+
+        
+
+            
+
+
+          class="d-inline-block d-lg-none flex-order-1 f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit"
+          Sign in
+
+
+
+        Product
+        Automate any workflow
+
+    
+
+        Host and manage packages
+
+    
+
+        Find and fix vulnerabilities
+
+    
+
+        Instant dev environments
+
+    
+
+        Write better code with AI
+
+    
+
+        Manage code changes
+
+    
+
+        Plan and track work
+
+    
+
+        Collaborate outside of code
+
+    
+
+      All features
+
+    
+
+      Documentation
+
+
+      GitHub Skills
+
+
+      Blog
+
+
+
+
+        Solutions
+      Enterprise
+
+    
+
+      Teams
+
+    
+
+      Startups
+
+    
+
+      Education
+
+
+
+    
+
+      DevOps
+
+    
+
+      DevSecOps
+
+
+      Learning Pathways
+
+
+      White papers, Ebooks, Webinars
+
+
+      Customer Stories
+
+    
+
+      Partners
+
+
+
+
+        Open Source
+      
+        Fund open source developers
+
+    
+
+      
+        GitHub community articles
+
+    
+
+      Topics
+
+    
+
+      Trending
+
+    
+
+      Collections
+
+    
+
+
+
+
+
+                
+
+
+    class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center mr-4 rounded"
+    data-action="click:qbsearch-input#searchInputContainerClicked"
+        type="button"
+        class="header-search-button placeholder  input-button form-control d-flex flex-1 flex-self-stretch flex-items-center no-wrap width-full py-0 pl-2 pr-0 text-left border-0 box-shadow-none"
+        data-target="qbsearch-input.inputButton"
+        placeholder="Search or jump to..."
+        autocapitalize="off"
+        data-action="click:qbsearch-input#handleExpand"
+
+
+
+    
+      
+          style="border-radius: 12px;"
+          data-target="qbsearch-input.queryBuilderContainer"
+          hidden
+        Search
+        class="QueryBuilder-StyledInput width-fit "
+        data-target="query-builder.styledInput"
+            aria-hidden="true"
+            class="QueryBuilder-StyledInputContent"
+            data-target="query-builder.styledInputContent"
+          input:query-builder#inputChange
+          blur:query-builder#inputBlur
+          keydown:query-builder#inputKeydown
+          focus:query-builder#inputFocus
+                click:query-builder#clear
+                focus:query-builder#clearButtonFocus
+                blur:query-builder#clearButtonBlur
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  role="listbox"
+                  class="ActionListWrap QueryBuilder-ListWrap"
+                  aria-label="Suggestions"
+                  data-action="
+                    combobox-commit:query-builder#comboboxCommit
+                    mousedown:query-builder#resultsMousedown
+                  "
+                  data-target="query-builder.resultsList"
+                  data-persist-list=false
+                  id="query-builder-test-results"
+              Search syntax tips
+
+    
+        Provide feedback
+
+    
+        Saved searches
+
+
+
+                type="text"
+                name="custom_scope_name"
+                id="custom_scope_name"
+                data-target="custom-scopes.customScopesNameField"
+                class="form-control"
+                autocomplete="off"
+                placeholder="github-ruby"
+                required
+
+              type="text"
+              name="custom_scope_query"
+              id="custom_scope_query"
+              data-target="custom-scopes.customScopesQueryField"
+              class="form-control"
+              autocomplete="off"
+              required
+
+
+
+
+
+              class="HeaderMenu-link HeaderMenu-link--sign-in flex-shrink-0 no-underline d-block d-lg-inline-block border border-lg-0 rounded rounded-lg-0 p-2 p-lg-0"
+              Sign in
+
+              class="HeaderMenu-link HeaderMenu-link--sign-up flex-shrink-0 d-none d-lg-inline-block no-underline border color-border-default rounded px-2 py-1"
+              Sign up
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      
+
+
+
+    
+
+
+
+
+
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+      
+      
+
+
+
+
+
+
+  
+
+
+            
+    
+        davidonzo
+
+
+
+
+    
+      
+
+
+
+          Star
+
+        
+
+
+
+
+
+
+    
+
+
+    
+    
+
+
+    
+    
+
+
+    
+    
+
+
+    
+    
+
+
+    
+    
+
+
+    
+    
+
+    
+    
+
+
+    
+
+
+    
+    
+      
+          Code
+  
+  
+    
+      
+          Issues
+  
+  
+    
+      
+          Pull requests
+  
+  
+    
+      
+          Discussions
+  
+  
+    
+      
+          Actions
+  
+  
+    
+      
+          Projects
+  
+  
+    
+      
+          Security
+  
+  
+    
+      
+          Insights
+  
+  
+
+
+      
+
+
+  
+
+
+
+    
+
+
+
+    
+      
+    
+
+
+
+
+
+  app-name="react-code-view"
+  style="min-height: calc(100vh - 64px)" 
+  data-ssr="false"
+  data-lazy="false"
+  data-alternate="false"
+  
+
+
+
+
+
+
+
+
+  
+
+
+        &copy; 2024 GitHub,&nbsp;Inc.
+
+
+
+
+
+
+
+
+
+      Manage cookies
+
+      Do not share my personal information
+
+
+
+
+
+
+
+    You can’t perform that action at this time.
+
+
+
+
+
+
+
+
+
