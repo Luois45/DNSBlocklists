@@ -1,0 +1,48 @@
+# VRChat
+# A DNS Blocklist for VRChat Analytics
+#
+# Project home page:
+# https://github.com/Luois45/VRChatAnalyticsBlocklist
+#
+# Fetch the latest version of this file:
+# https://raw.githubusercontent.com/Luois45/VRChatAnalyticsBlocklist/master/hosts.txt
+#
+# License:
+# GNU Affero General Public License (https://www.gnu.org/licenses/agpl-3.0)
+#
+# Contributions by:
+# Louis_45
+#
+# Domains provided by DubyaDude:
+# https://github.com/DubyaDude/VRChat-Analytics-Blocker/blob/master/VRChat-Analytics-Blocker/src/Constants.cs
+#
+# Further changes and contributors maintained in the commit history at
+# https://github.com/Luois45/VRChatAnalyticsBlocklist/commits/master
+#
+# Contribute:
+# Create an issue at https://github.com/Luois45/VRChatAnalyticsBlocklist/issues
+#
+
+# VRChat Specific (Proven to use/have used)
+0.0.0.0 api.amplitude.com
+0.0.0.0 api2.amplitude.com
+0.0.0.0 api.lab.amplitude.com
+0.0.0.0 api.eu.amplitude.com
+0.0.0.0 regionconfig.amplitude.com
+0.0.0.0 regionconfig.eu.amplitude.com
+0.0.0.0 o1125869.ingest.sentry.io
+
+# VRChat Specific (Hasn't used yet, added for future proofing)
+0.0.0.0 api3.amplitude.com
+0.0.0.0 cdn.amplitude.com
+0.0.0.0 info.amplitude.com
+0.0.0.0 static.amplitude.com
+
+# Unity Specific
+0.0.0.0 api.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 public.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+0.0.0.0 ecommerce.iap.unity3d.com
